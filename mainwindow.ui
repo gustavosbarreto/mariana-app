@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1260</width>
+    <height>481</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Mariana Cafeteria</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QToolButton" name="novaOperacao">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>[F1] Debitar</string>
+        </property>
+        <property name="icon">
+         <iconset resource="recursos.qrc">
+          <normaloff>:/view-financial-payment-mode.png</normaloff>:/view-financial-payment-mode.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>42</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="shortcut">
+         <string>F1</string>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="realizarEstorno">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>[F2] Realizar Estorno</string>
+        </property>
+        <property name="icon">
+         <iconset resource="recursos.qrc">
+          <normaloff>:/view-financial-transfer.png</normaloff>:/view-financial-transfer.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>42</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="shortcut">
+         <string>F2</string>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="recarregar">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>[F3] Recarregar Cartão</string>
+        </property>
+        <property name="icon">
+         <iconset resource="recursos.qrc">
+          <normaloff>:/view-bank-account-savings.png</normaloff>:/view-bank-account-savings.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>42</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="shortcut">
+         <string>F3</string>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="consultaSaldo">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>[F4] Consultar Saldo</string>
+        </property>
+        <property name="icon">
+         <iconset resource="recursos.qrc">
+          <normaloff>:/view-bank-account.png</normaloff>:/view-bank-account.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>42</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="emitirCartao">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>[F5] Emitir Cartão</string>
+        </property>
+        <property name="icon">
+         <iconset resource="recursos.qrc">
+          <normaloff>:/view-barcode-add.png</normaloff>:/view-barcode-add.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>42</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="recuperarCartao">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>[F6] Recuperar Cartão</string>
+        </property>
+        <property name="icon">
+         <iconset resource="recursos.qrc">
+          <normaloff>:/taxes-finances.png</normaloff>:/taxes-finances.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>42</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="relatorios">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>[F7] Relatórios</string>
+        </property>
+        <property name="icon">
+         <iconset resource="recursos.qrc">
+          <normaloff>:/kchart.png</normaloff>:/kchart.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>42</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <attribute name="horizontalHeaderStretchLastSection">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="verticalHeaderVisible">
+       <bool>false</bool>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>Tipo</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Valor</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Horário</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1260</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="recursos.qrc"/>
+ </resources>
+ <connections/>
+</ui>
