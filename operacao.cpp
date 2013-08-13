@@ -52,6 +52,29 @@ QList<Operacao> Operacao::ultimas()
     return list;
 }
 
+QList<Operacao> Operacao::dia(const QDate &data)
+{
+    QList<Operacao> list;
+
+    QSqlQuery q(BancoDados::db);
+    q.exec(QString("SELECT * FROM operacoes WHERE data>=%1 AND data<=%2 ORDER BY data DESC LIMIT 1000").arg(QDateTime(data).toTime_t()).arg(QDateTime(data.addDays(1)).toTime_t()));
+
+    while (q.next()) {
+        qlonglong id = q.value(0).toLongLong();
+        qlonglong tipo = q.value(1).toLongLong();
+        double valor = q.value(2).toDouble();
+        qlonglong cartao = q.value(3).toLongLong();
+        qlonglong data = q.value(4).toLongLong();
+
+        Operacao op(Cartao(cartao), (Tipo)tipo, valor, data);
+        op.setId(id);
+
+        list << op;
+    }
+
+    return list;
+}
+
 QString Operacao::valor(Operacao op)
 {
     return QLocale().toCurrencyString(op.valor());

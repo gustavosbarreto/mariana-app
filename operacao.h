@@ -26,6 +26,7 @@ public:
     void salvar();
 
     static QList<Operacao> ultimas();
+	static QList<Operacao> dia(const QDate &data);
 
     static QString valor(Operacao op);
     static QString tipo(Operacao op);

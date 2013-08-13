@@ -18,18 +18,21 @@ SOURCES += main.cpp\
     operacao.cpp \
     leitoracartaodialog.cpp \
     novocartao.cpp \
-    bancodados.cpp
+    bancodados.cpp \
+	relatoriodata.cpp
 
 HEADERS  += mainwindow.h \
     cartao.h \
     operacao.h \
     leitoracartaodialog.h \
     novocartao.h \
-    bancodados.h
+    bancodados.h \
+	relatoriodata.h
 
 FORMS    += mainwindow.ui \
     leitoracartaodialog.ui \
-    novocartao.ui
+    novocartao.ui \
+	relatoriodata.ui
 
 RESOURCES += \
     recursos.qrc

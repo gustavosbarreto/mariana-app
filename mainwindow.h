@@ -28,6 +28,8 @@ private slots:
     void on_emitirCartao_clicked();
 
     void on_recuperarCartao_clicked();
+	
+	void on_relatorios_clicked();
 
 private:
     Ui::MainWindow *ui;

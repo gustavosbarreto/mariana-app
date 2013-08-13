@@ -4,6 +4,7 @@
 #include "cartao.h"
 #include "operacao.h"
 #include "bancodados.h"
+#include "relatoriodata.h"
 
 #include <QSqlQuery>
 #include <QDir>
@@ -26,8 +27,8 @@ MainWindow::MainWindow(QWidget *parent) :
 	menu->addAction(dataAction);
 	menu->addAction(cartaoAction);
 	
-    ui->relatorios->setMenu(menu);
-	ui->relatorios->setPopupMode(QToolButton::InstantPopup);
+    //ui->relatorios->setMenu(menu);
+	//ui->relatorios->setPopupMode(QToolButton::InstantPopup);
 
     BancoDados::inicializar();
 
@@ -168,4 +169,10 @@ void MainWindow::on_recuperarCartao_clicked()
     LeitoraCartaoDialog d(this);
     if (d.exec() == QDialog::Rejected)
         return;
+}
+
+void MainWindow::on_relatorios_clicked()
+{
+	RelatorioData d(this);
+	d.exec();
 }
