@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui sql
+QT       += core gui sql quickwidgets printsupport script
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -19,7 +19,9 @@ SOURCES += main.cpp\
     leitoracartaodialog.cpp \
     novocartao.cpp \
     bancodados.cpp \
-	relatoriodata.cpp
+	relatoriodata.cpp \
+    etiquetas.cpp \
+    painter.cpp
 
 HEADERS  += mainwindow.h \
     cartao.h \
@@ -27,12 +29,16 @@ HEADERS  += mainwindow.h \
     leitoracartaodialog.h \
     novocartao.h \
     bancodados.h \
-	relatoriodata.h
+	relatoriodata.h \
+    etiquetas.h \
+    painter.h
 
 FORMS    += mainwindow.ui \
     leitoracartaodialog.ui \
     novocartao.ui \
-	relatoriodata.ui
+	relatoriodata.ui \
+    etiquetas.ui
 
 RESOURCES += \
     recursos.qrc
+
