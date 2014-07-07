@@ -67,7 +67,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="recursos.qrc"/>
+  <include location="../recursos.qrc"/>
  </resources>
  <connections>
   <connection>
