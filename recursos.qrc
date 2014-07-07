@@ -1,15 +1,15 @@
 <RCC>
     <qresource prefix="/">
-        <file>office-address-book.png</file>
-        <file>kchart.png</file>
-        <file>document-preview.png</file>
-        <file>view-bank-account.png</file>
-        <file>view-barcode-add.png</file>
-        <file>view-loan-asset.png</file>
-        <file>view-loan.png</file>
-        <file>view-financial-transfer.png</file>
-        <file>view-financial-payment-mode.png</file>
-        <file>view-bank-account-savings.png</file>
-        <file>taxes-finances.png</file>
+        <file>images/office-address-book.png</file>
+        <file>images/kchart.png</file>
+        <file>images/document-preview.png</file>
+        <file>images/view-bank-account.png</file>
+        <file>images/view-barcode-add.png</file>
+        <file>images/view-loan-asset.png</file>
+        <file>images/view-loan.png</file>
+        <file>images/view-financial-transfer.png</file>
+        <file>images/view-financial-payment-mode.png</file>
+        <file>images/view-bank-account-savings.png</file>
+        <file>images/taxes-finances.png</file>
     </qresource>
 </RCC>

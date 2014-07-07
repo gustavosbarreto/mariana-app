@@ -33,12 +33,12 @@ HEADERS  += mainwindow.h \
     etiquetas.h \
     painter.h
 
-FORMS    += mainwindow.ui \
-    leitoracartaodialog.ui \
-    novocartao.ui \
-	relatoriodata.ui \
-    etiquetas.ui
+FORMS    += $$PWD/../forms/mainwindow.ui \
+    $$PWD/../forms/leitoracartaodialog.ui \
+    $$PWD/../forms/novocartao.ui \
+	$$PWD/../forms/relatoriodata.ui \
+    $$PWD/../forms/etiquetas.ui
 
 RESOURCES += \
-    recursos.qrc
+    $$PWD/../recursos.qrc
 

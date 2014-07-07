@@ -20,7 +20,7 @@
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="recursos.qrc">:/office-address-book.png</pixmap>
+      <pixmap resource="recursos.qrc">:/images/office-address-book.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>

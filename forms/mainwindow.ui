@@ -35,7 +35,7 @@
         </property>
         <property name="icon">
          <iconset resource="recursos.qrc">
-          <normaloff>:/view-financial-payment-mode.png</normaloff>:/view-financial-payment-mode.png</iconset>
+          <normaloff>:/images/view-financial-payment-mode.png</normaloff>:/images/view-financial-payment-mode.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -69,7 +69,7 @@
         </property>
         <property name="icon">
          <iconset resource="recursos.qrc">
-          <normaloff>:/view-financial-transfer.png</normaloff>:/view-financial-transfer.png</iconset>
+          <normaloff>:/images/view-financial-transfer.png</normaloff>:/images/view-financial-transfer.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -103,7 +103,7 @@
         </property>
         <property name="icon">
          <iconset resource="recursos.qrc">
-          <normaloff>:/view-bank-account-savings.png</normaloff>:/view-bank-account-savings.png</iconset>
+          <normaloff>:/images/view-bank-account-savings.png</normaloff>:/images/view-bank-account-savings.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -137,7 +137,7 @@
         </property>
         <property name="icon">
          <iconset resource="recursos.qrc">
-          <normaloff>:/view-bank-account.png</normaloff>:/view-bank-account.png</iconset>
+          <normaloff>:/images/view-bank-account.png</normaloff>:/images/view-bank-account.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -168,7 +168,7 @@
         </property>
         <property name="icon">
          <iconset resource="recursos.qrc">
-          <normaloff>:/view-barcode-add.png</normaloff>:/view-barcode-add.png</iconset>
+          <normaloff>:/images/view-barcode-add.png</normaloff>:/images/view-barcode-add.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -199,7 +199,7 @@
         </property>
         <property name="icon">
          <iconset resource="recursos.qrc">
-          <normaloff>:/taxes-finances.png</normaloff>:/taxes-finances.png</iconset>
+          <normaloff>:/images/taxes-finances.png</normaloff>:/images/taxes-finances.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -230,7 +230,7 @@
         </property>
         <property name="icon">
          <iconset resource="recursos.qrc">
-          <normaloff>:/kchart.png</normaloff>:/kchart.png</iconset>
+          <normaloff>:/images/kchart.png</normaloff>:/images/kchart.png</iconset>
         </property>
         <property name="iconSize">
          <size>
